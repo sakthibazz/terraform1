@@ -14,6 +14,7 @@ while [ $number -gt 0 ]; do
     digit=$(( $number % 10 ))
     reverse="${reverse}${digit}"
     number=$(( $number / 10 ))
+    print('nithin')
 done
 
 # Print the reversed number

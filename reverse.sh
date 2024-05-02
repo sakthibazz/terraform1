@@ -15,6 +15,6 @@ while [ $number -gt 0 ]; do
     reverse="${reverse}${digit}"
     number=$(( $number / 10 ))
 done
-
+#hshs
 # Print the reversed number
 echo "Reversed number: $reverse"
